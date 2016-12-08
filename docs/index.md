@@ -1,1 +1,0 @@
-![Rummage](./assets/rummage-logo-grey-on-white.svg)
