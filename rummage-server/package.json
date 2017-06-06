@@ -1,0 +1,29 @@
+{
+  "name": "rummage-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "author": "Rob Howell <rob@robhowell.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv-safe": "^4.0.4",
+    "h2o2": "^5.4.0",
+    "hapi": "^16.3.0",
+    "hapi-swagger": "^7.7.0",
+    "inert": "^4.2.0",
+    "joi": "^10.5.2",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4",
+    "vision": "^4.1.1",
+    "wreck": "^12.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "prettier": "^1.4.1"
+  }
+}
